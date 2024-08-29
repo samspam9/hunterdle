@@ -1,0 +1,2 @@
+# hunterdle
+Monster Hunter Wordle
