@@ -34,7 +34,7 @@ async function main() {
     if (monster) {
       await page.goto(`${baseUrl}${monster.link}`)
 
-      const m = await page.evaluate((allGames) => {
+      const m = await page.evaluate((allGames: string[]) => {
         const image = document
           .querySelector("#mw-content-text > div > aside > figure > a > img")
           ?.getAttribute("src")

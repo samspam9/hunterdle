@@ -1,0 +1,19 @@
+{
+  "name": "hunterdle-server",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.2.2",
+    "hono": "^4.5.10",
+    "zod": "^3.23.8"
+  }
+}
